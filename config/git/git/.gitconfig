@@ -1,0 +1,14 @@
+[core]
+	user = Arthur D'Aquino
+	email = deaquinodev@gmail.com
+	editor = vim
+	pager = git-split-diffs --color | less -RFX
+[user]
+	name = Arthur D'Aquino
+	email = deaquinodev@gmail.com
+[init]
+	defaultBranch = main
+[split-diffs]
+	theme-directory = /Users/arthurdaquino/dotfiles/terminal/git-split-diffs
+	theme-name = tokyo-night
+	syntax-highlighting-theme = tokyo-night

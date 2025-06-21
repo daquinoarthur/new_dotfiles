@@ -1,0 +1,42 @@
+gui:
+  # Custom theme color scheme
+  theme:
+    lightTheme: false
+    activeBorderColor:
+      - "#bb9af7" # Custom theme purple
+      - bold
+    inactiveBorderColor:
+      - "#414868" # Custom theme dark gray
+    optionsTextColor:
+      - "#7aa2f7" # Custom theme blue
+    selectedLineBgColor:
+      - "#283457" # Custom theme darker gray (less prominent cursor)
+    selectedRangeBgColor:
+      - "#283457" # Custom theme darker gray
+    cherryPickedCommitBgColor:
+      - "#7dcfff" # Custom theme cyan
+    cherryPickedCommitFgColor:
+      - "#1a1b26" # Custom theme background
+    unstagedChangesColor:
+      - "#f7768e" # Custom theme red
+    defaultFgColor:
+      - "#c0caf5" # Custom theme foreground
+  authorColors:
+    "*": "#bb9af7" # Custom theme purple
+  branchColors:
+    "main": "#9ece6a" # Custom theme green
+    "master": "#9ece6a" # Custom theme green
+    "develop": "#7aa2f7" # Custom theme blue
+    "feature/*": "#e0af68" # Custom theme yellow
+    "hotfix/*": "#f7768e" # Custom theme red
+    "release/*": "#bb9af7" # Custom theme purple
+git:
+  paging:
+    colorArg: always
+    pager: /Users/arthurdaquino/.local/bin/git-split-diffs-wrapper
+keybinding:
+  universal:
+    quit: "q"
+os:
+  editPreset: "nvim"
+
